@@ -14,7 +14,6 @@
 Add file/directory to git
 
 ``` 
-
 git add myfile.txt 
 git add ./my-dirctory 
 
@@ -59,5 +58,5 @@ Delete branch
 
 ## Todo
 - Use rebase to reduce merge commit
-- Password caching: github.com/articles/set-up-git
+- Password caching: [Setup git](https://help.github.com/articles/set-up-git/)
 - Use Visual Studio to connect to GitHub repositories
