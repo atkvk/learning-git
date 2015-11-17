@@ -11,10 +11,14 @@
 
 ### Add/Remove files
 
-Add file to git
+Add file/directory to git
 
-``` git add myfile.txt ```
-``` git ass ./my-dirctory ```
+``` 
+
+git add myfile.txt 
+git add ./my-dirctory 
+
+```
 
 Remove file from git
 
@@ -52,4 +56,8 @@ Delete branch
 - git pull  = fetch + merge
 - git push
 
-(Use rebase to reduce merge commit)
+
+## Todo
+- Use rebase to reduce merge commit
+- Password caching: github.com/articles/set-up-git
+- Use Visual Studio to connect to GitHub repositories
