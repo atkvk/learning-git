@@ -7,13 +7,20 @@
 - Create a new local branch
 - Push it to the remote 
 
+## Commands
 
+### Add/Remove files
+
+Add file to git
+
+``` git add myfile.txt ```
+``` git ass ./my-dirctory ```
 
 Remove file from git
 
 ``` git rm myfile.txt ```
 
-## Branch
+### Branch
 
 Create a new branch
 
@@ -36,3 +43,13 @@ Merge branches
 Delete branch
 
 ``` git branch -d [my branch] ```
+
+
+### Collaboration
+
+- git clone   ``` git clone https://github/git-repo.git  [my git-repo] ```
+- git fetch 
+- git pull  = fetch + merge
+- git push
+
+(Use rebase to reduce merge commit)
