@@ -14,7 +14,6 @@
 Add file/directory to git
 
 ``` 
-
 git add myfile.txt 
 git add ./my-dirctory 
 
