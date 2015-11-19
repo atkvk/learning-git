@@ -33,6 +33,10 @@ Switch to branch
 
 ``` git checkout [my branch] ```
 
+Push branch to remote
+
+``` git push origin [my branch] ```
+
 Merge branches
 
 - switch to branch A
