@@ -59,6 +59,20 @@ Clean up deleted remote branches
 
 ``` git remote prune origin ```
 
+### Tag
+
+List all tags
+
+``` git tag ```
+
+Add new tag
+
+``` git tag -a v0.0.1 - m "Version 0.0.1" ```
+
+Push new tags
+
+``` git push --tags ```
+
 ### Collaboration
 
 - git clone   ``` git clone https://github/git-repo.git  [my git-repo] ```
