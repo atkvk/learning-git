@@ -51,6 +51,13 @@ Delete branch
 
 ``` git branch -d [my branch] ```
 
+Remove a remote branch
+
+``` git push origin :[my branch to be delete] ```  ???
+
+Clean up deleted remote branches 
+
+``` git remote prune origin ```
 
 ### Collaboration
 
@@ -58,6 +65,11 @@ Delete branch
 - git fetch 
 - git pull  = fetch + merge
 - git push
+
+### Remote 
+
+- Show remote branches  ``` git remote show origin ```
+
 
 
 ## Todo
